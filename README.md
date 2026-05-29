@@ -1,6 +1,6 @@
 ![Banner Image](image/Banner.png)
 
-## Hi there! 👋 I'm Tran Quoc Hung (you guys can call me Kamureii or Rei), a Cybersecurity Intern @ VCI.
+## Hi there! 👋 I'm Tran Quoc Hung (you guys can call me Kamureii or Rei), a Network Security Intern @ VCI.
 
 🚀 I am a highly motivated Information Systems student at VNU-UET with a strong computer science foundation. My journey is all about diving deep into Cybersecurity, particularly Endpoint Security (EDR/EPP) and Agentic AI, while building robust, scalable applications.
 
