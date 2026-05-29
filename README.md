@@ -15,7 +15,7 @@
 Let's connect and build the future together! 🌟
 
 [![Linkedin: Tran Quoc Hung](https://img.shields.io/badge/-Tran%20Quoc%20Hung-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tranquochung-vnu/)](https://www.linkedin.com/in/tranquochung-vnu/)
-[![GitHub tranquochung](https://img.shields.io/github/followers/tranquochung?label=follow&style=social)](https://github.com/tranquochung)
+[![GitHub kamureii](https://img.shields.io/github/followers/kamureii?label=follow&style=social)](https://github.com/kamureii)
 [![Email](https://img.shields.io/badge/Email-kamurei123@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kamurei123@gmail.com)
 
 ### Top Skills & Tools:
