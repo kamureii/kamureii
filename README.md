@@ -35,7 +35,7 @@ Let's connect and build the future together! 🌟
 * 📫 How to reach me: **kamurei123@gmail.com** or via **[LinkedIn](https://www.linkedin.com/in/kamureii/)**
 
 ### Github Stats 📈
-![Rei's github stats](https://github-readme-stats.vercel.app/api?username=kamureii&show_icons=true&hide_border=true&theme=dark)
+![Reii's GitHub stats](https://github-readme-stats.vercel.app/api?username=kamureii&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kamureii&layout=compact&theme=dark&hide_border=true)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=kamureii&theme=onedark)](https://github.com/kamureii/github-profile-trophy)
