@@ -6,7 +6,7 @@
 
 👨‍💻 Currently, I'm honing my skills as an intern at VNPT Cyber Immunity (VCI), where I research detection mechanisms, develop behavioral test cases for mimikatz-like activities, and build advanced network tools.
 
-🛠️ My tech toolkit includes **C++, Python, Java, NodeJS, ExpressJS, SQL, and MFC**. I bridge the gap between low-level network programming and full-stack development, utilizing tools like Git, Docker, and Wireshark to ensure seamless deployment and analysis.
+🛠️ My tech toolkit includes **C/C++, Python, Java, NodeJS, ExpressJS, SQL, and MFC**. I bridge the gap between low-level network programming and full-stack development, utilizing tools like Git, Docker, and Wireshark to ensure seamless deployment and analysis.
 
 🔐 Cybersecurity concepts? Yep, I've got you covered. From Network & Application Security to basic Forensics and Vulnerability Management, I am always eager to learn, test, and implement secure solutions in real-world environments.
 
@@ -19,7 +19,7 @@ Let's connect and build the future together! 🌟
 [![Email](https://img.shields.io/badge/Email-kamurei123@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kamurei123@gmail.com)
 
 ### Top Skills & Tools:
-![C/C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![C/C++](https://img.shields.io/badge/c/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### My Featured Projects 💻
 * **SentinelNet Port Scanner:** An advanced multi-threaded network scanning tool built in Python for detecting service vulnerabilities with high speed and accuracy.
