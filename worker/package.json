@@ -13,9 +13,9 @@
     "db:migrate:remote": "wrangler d1 migrations apply kamureii-xdr-telemetry --remote"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260101.0",
+    "@cloudflare/workers-types": "^5.20261125.1",
     "typescript": "^5.7.3",
-    "vitest": "^3.0.5",
-    "wrangler": "^4.10.0"
+    "vitest": "^5.1.2",
+    "wrangler": "^4.168.0"
   }
 }
