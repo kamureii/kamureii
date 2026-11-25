@@ -13,9 +13,8 @@ profile:
 
 edge:
   sensor_name: kamureii-xdr-edge.sys
-  # Paste your deployed Cloudflare Worker URL here to activate real-time Visit/Theme/Burst/Canary detection:
-  # Example: https://kamureii-xdr-edge.<your-subdomain>.workers.dev
-  worker_url: ""
+  # Deployed Cloudflare Worker URL powering real-time Visit/Theme/Burst/Canary detection:
+  worker_url: https://kamureii-xdr-edge.kamureii.workers.dev
   # Serves auto-updated SVGs from the orphan `generated-assets` branch so `main` history stays clean:
   asset_base_url: https://raw.githubusercontent.com/kamureii/kamureii/generated-assets
 

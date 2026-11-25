@@ -5,11 +5,15 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/kamureii/kamureii/generated-assets/alert-console-static.svg" alt="Kamureii Edge Detection Console" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://kamureii-xdr-edge.kamureii.workers.dev/v1/alert.svg?theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://kamureii-xdr-edge.kamureii.workers.dev/v1/alert.svg?theme=light" />
+  <img src="https://kamureii-xdr-edge.kamureii.workers.dev/v1/alert.svg?theme=dark" alt="Kamureii Live Edge Detection Console" width="100%" />
+</picture>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kamureii/"><img src="https://raw.githubusercontent.com/kamureii/kamureii/generated-assets/action-escalate.svg" alt="Escalate to Tier 2 (LinkedIn)" width="32%" /></a>&nbsp;<a href="https://github.com/kamureii"><img src="https://raw.githubusercontent.com/kamureii/kamureii/generated-assets/action-benign.svg" alt="Mark visit benign" width="32%" /></a>&nbsp;<a href="https://github.com/kamureii/kamureii/blob/main/docs/SETUP.md"><img src="https://raw.githubusercontent.com/kamureii/kamureii/generated-assets/action-isolate.svg" alt="Isolate and inspect telemetry" width="32%" /></a>
+  <a href="https://kamureii-xdr-edge.kamureii.workers.dev/v1/triage?action=escalate"><img src="https://kamureii-xdr-edge.kamureii.workers.dev/v1/badge/action.svg?kind=escalate" alt="Escalate to Tier 2 (LinkedIn)" width="32%" /></a>&nbsp;<a href="https://kamureii-xdr-edge.kamureii.workers.dev/v1/triage?action=benign"><img src="https://kamureii-xdr-edge.kamureii.workers.dev/v1/badge/action.svg?kind=benign" alt="Mark visit benign" width="32%" /></a>&nbsp;<a href="https://kamureii-xdr-edge.kamureii.workers.dev/v1/isolate"><img src="https://kamureii-xdr-edge.kamureii.workers.dev/v1/badge/action.svg?kind=isolate" alt="Isolate and inspect live telemetry" width="32%" /></a>
 </p>
 
 <p align="center">
@@ -25,7 +29,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kamureii/kamureii/blob/main/worker/src/pages/detonation.ts"><img src="https://raw.githubusercontent.com/kamureii/kamureii/generated-assets/canary-banner-static.svg" alt="Diagnostic artifact honeytoken T1552" width="100%" /></a>
+  <a href="https://kamureii-xdr-edge.kamureii.workers.dev/v1/canary"><img src="https://kamureii-xdr-edge.kamureii.workers.dev/v1/badge/canary.svg" alt="Diagnostic artifact honeytoken T1552" width="100%" /></a>
 </p>
 
 <details>
