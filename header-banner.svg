@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="68" viewBox="0 0 880 68" role="img" aria-label="Tran Quoc Hung — Endpoint Security &amp; Detection Engineer">
+  <title>kamureii — Endpoint Security &amp; Detection Engineer</title>
+  <defs>
+    <linearGradient id="hdrVec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E52E3D" />
+      <stop offset="50%" stop-color="#9E2450" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <style>
+    .disp { font-family: 'Bahnschrift', 'DIN Alternate', 'Space Grotesk', 'Segoe UI', sans-serif; font-weight: 600; }
+    .mono { font-family: 'Cascadia Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="67" fill="#0B0D12" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+  <rect x="0" y="65" width="880" height="3" fill="url(#hdrVec)" />
+
+  <!-- Left: Ring 0 badge + repo handle + title -->
+  <rect x="20" y="16" width="58" height="22" rx="1" fill="#251016" stroke="rgba(229,46,61,0.52)" stroke-width="1" />
+  <text x="49" y="31" text-anchor="middle" fill="#FF5765" font-size="11" class="mono">Ring 0</text>
+
+  <text x="92" y="32" fill="#F3F5F9" font-size="20" letter-spacing="-0.2" class="disp">Tran Quoc Hung</text>
+  <text x="92" y="51" fill="#A5ACBC" font-size="11.5" class="mono">Endpoint Security &amp; Detection Engineer</text>
+
+  <!-- Right: Org + Location + Handle -->
+  <text x="860" y="30" text-anchor="end" fill="#F3F5F9" font-size="12" class="mono">VNPT Cyber Immunity</text>
+  <text x="860" y="49" text-anchor="end" fill="#788092" font-size="11.5" class="mono">kamureii / README.md  |  Hanoi, VN</text>
+</svg>

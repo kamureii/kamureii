@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="40" viewBox="0 0 286 40" role="img" aria-label="Mark visit benign">
+  <style>.mono { font-family: 'Cascadia Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }</style>
+  <rect x="0.5" y="0.5" width="285" height="39" rx="2" fill="#1B1F2B" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="3" height="39" fill="#3B82F6" />
+  <text x="16" y="24" fill="#F3F5F9" font-size="12" class="mono">Mark visit benign</text>
+  <text x="272" y="24" text-anchor="end" fill="#60A5FA" font-size="10.5" class="mono">TRIAGE</text>
+</svg>

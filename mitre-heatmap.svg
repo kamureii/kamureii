@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="MITRE ATT&amp;CK Detection and Sensor Coverage Matrix">
+  <title>MITRE ATT&amp;CK Coverage — 14 Techniques Mapped</title>
+  <style>
+    .disp { font-family: 'Bahnschrift', 'DIN Alternate', 'Space Grotesk', 'Segoe UI', sans-serif; font-weight: 600; }
+    .mono { font-family: 'Cascadia Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; font-variant-numeric: tabular-nums; }
+  </style>
+
+  <!-- Title + Sharp Square Legend -->
+  <text x="0" y="20" fill="#F3F5F9" font-size="17" letter-spacing="-0.2" class="disp">MITRE ATT&amp;CK coverage</text>
+  <text x="196" y="20" fill="#788092" font-size="11" class="mono">14 techniques mapped · hybrid scan</text>
+
+  <rect x="556" y="10" width="9" height="9" fill="#E52E3D" />
+  <text x="571" y="19" fill="#A5ACBC" font-size="11" class="mono">High depth</text>
+
+  <rect x="658" y="10" width="9" height="9" fill="#3B82F6" />
+  <text x="673" y="19" fill="#A5ACBC" font-size="11" class="mono">Public repo</text>
+
+  <rect x="768" y="10" width="9" height="9" fill="#6B7280" />
+  <text x="783" y="19" fill="#A5ACBC" font-size="11" class="mono">Enterprise / Lab</text>
+
+  <!-- Deep Recessed Matrix Well (#0B0D12) -->
+  <rect x="0.5" y="32.5" width="879" height="193" fill="#0B0D12" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+
+  <rect x="16.0" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="24.0" y="66" fill="#F3F5F9" font-size="11" class="mono">Execution</text>
+  <rect x="16.0" y="86" width="112.6" height="54" rx="2" fill="#251016" stroke="rgba(229,46,61,0.48)" stroke-width="1" />
+  <rect x="16.0" y="86" width="3" height="54" fill="#E52E3D" />
+  <text x="26.0" y="107" fill="#F3F5F9" font-size="12" class="mono">T1059</text>
+  <text x="26.0" y="125" fill="#D19AA0" font-size="10.5" class="mono">Command script</text>
+  <rect x="16.0" y="150" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="16.0" y="150" width="3" height="54" fill="#3B82F6" />
+  <text x="26.0" y="171" fill="#F3F5F9" font-size="12" class="mono">T1106</text>
+  <text x="26.0" y="189" fill="#93B4F5" font-size="10.5" class="mono">Native API</text>
+  <rect x="138.6" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="146.6" y="66" fill="#F3F5F9" font-size="11" class="mono">Persistence</text>
+  <rect x="138.6" y="86" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="138.6" y="86" width="3" height="54" fill="#3B82F6" />
+  <text x="148.6" y="107" fill="#F3F5F9" font-size="12" class="mono">T1543</text>
+  <text x="148.6" y="125" fill="#93B4F5" font-size="10.5" class="mono">System process</text>
+  <rect x="138.6" y="150" width="112.6" height="54" rx="2" fill="#191D28" stroke="rgba(255,255,255,0.14)" stroke-width="1" />
+  <rect x="138.6" y="150" width="3" height="54" fill="#6B7280" />
+  <text x="148.6" y="171" fill="#F3F5F9" font-size="12" class="mono">T1547</text>
+  <text x="148.6" y="189" fill="#9CA3AF" font-size="10.5" class="mono">Boot autostart</text>
+  <rect x="261.1" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="269.1" y="66" fill="#F3F5F9" font-size="11" class="mono">Privilege esc</text>
+  <rect x="261.1" y="86" width="112.6" height="54" rx="2" fill="#251016" stroke="rgba(229,46,61,0.48)" stroke-width="1" />
+  <rect x="261.1" y="86" width="3" height="54" fill="#E52E3D" />
+  <text x="271.1" y="107" fill="#F3F5F9" font-size="12" class="mono">T1055</text>
+  <text x="271.1" y="125" fill="#D19AA0" font-size="10.5" class="mono">Proc injection</text>
+  <rect x="261.1" y="150" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="261.1" y="150" width="3" height="54" fill="#3B82F6" />
+  <text x="271.1" y="171" fill="#F3F5F9" font-size="12" class="mono">T1134</text>
+  <text x="271.1" y="189" fill="#93B4F5" font-size="10.5" class="mono">Access token</text>
+  <rect x="383.7" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="391.7" y="66" fill="#F3F5F9" font-size="11" class="mono">Defense evasion</text>
+  <rect x="383.7" y="86" width="112.6" height="54" rx="2" fill="#251016" stroke="rgba(229,46,61,0.48)" stroke-width="1" />
+  <rect x="383.7" y="86" width="3" height="54" fill="#E52E3D" />
+  <text x="393.7" y="107" fill="#F3F5F9" font-size="12" class="mono">T1562</text>
+  <text x="393.7" y="125" fill="#D19AA0" font-size="10.5" class="mono">Impair defenses</text>
+  <rect x="383.7" y="150" width="112.6" height="54" rx="2" fill="#191D28" stroke="rgba(255,255,255,0.14)" stroke-width="1" />
+  <rect x="383.7" y="150" width="3" height="54" fill="#6B7280" />
+  <text x="393.7" y="171" fill="#F3F5F9" font-size="12" class="mono">T1036</text>
+  <text x="393.7" y="189" fill="#9CA3AF" font-size="10.5" class="mono">Masquerading</text>
+  <rect x="506.3" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="514.3" y="66" fill="#F3F5F9" font-size="11" class="mono">Cred access</text>
+  <rect x="506.3" y="86" width="112.6" height="54" rx="2" fill="#191D28" stroke="rgba(255,255,255,0.14)" stroke-width="1" />
+  <rect x="506.3" y="86" width="3" height="54" fill="#6B7280" />
+  <text x="516.3" y="107" fill="#F3F5F9" font-size="12" class="mono">T1003</text>
+  <text x="516.3" y="125" fill="#9CA3AF" font-size="10.5" class="mono">OS cred dump</text>
+  <rect x="506.3" y="150" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="506.3" y="150" width="3" height="54" fill="#3B82F6" />
+  <text x="516.3" y="171" fill="#F3F5F9" font-size="12" class="mono">T1552</text>
+  <text x="516.3" y="189" fill="#93B4F5" font-size="10.5" class="mono">Canary lure</text>
+  <rect x="628.9" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="636.9" y="66" fill="#F3F5F9" font-size="11" class="mono">Discovery</text>
+  <rect x="628.9" y="86" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="628.9" y="86" width="3" height="54" fill="#3B82F6" />
+  <text x="638.9" y="107" fill="#F3F5F9" font-size="12" class="mono">T1057</text>
+  <text x="638.9" y="125" fill="#93B4F5" font-size="10.5" class="mono">Proc discovery</text>
+  <rect x="628.9" y="150" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="628.9" y="150" width="3" height="54" fill="#3B82F6" />
+  <text x="638.9" y="171" fill="#F3F5F9" font-size="12" class="mono">T1083</text>
+  <text x="638.9" y="189" fill="#93B4F5" font-size="10.5" class="mono">File discovery</text>
+  <rect x="751.4" y="48" width="112.6" height="28" fill="#1B1F2B" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="759.4" y="66" fill="#F3F5F9" font-size="11" class="mono">Command &amp; C2</text>
+  <rect x="751.4" y="86" width="112.6" height="54" rx="2" fill="#10192B" stroke="rgba(59,130,246,0.40)" stroke-width="1" />
+  <rect x="751.4" y="86" width="3" height="54" fill="#3B82F6" />
+  <text x="761.4" y="107" fill="#F3F5F9" font-size="12" class="mono">T1090</text>
+  <text x="761.4" y="125" fill="#93B4F5" font-size="10.5" class="mono">Proxy (camo)</text>
+  <rect x="751.4" y="150" width="112.6" height="54" rx="2" fill="#191D28" stroke="rgba(255,255,255,0.14)" stroke-width="1" />
+  <rect x="751.4" y="150" width="3" height="54" fill="#6B7280" />
+  <text x="761.4" y="171" fill="#F3F5F9" font-size="12" class="mono">T1071</text>
+  <text x="761.4" y="189" fill="#9CA3AF" font-size="10.5" class="mono">App layer C2</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" role="img" aria-label="Process Lineage Portfolio and Sigma Identity Rule">
+  <title>Process Lineage &amp; Detection Profile</title>
+  <style>
+    .disp { font-family: 'Bahnschrift', 'DIN Alternate', 'Space Grotesk', 'Segoe UI', sans-serif; font-weight: 600; }
+    .mono { font-family: 'Cascadia Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; font-variant-numeric: tabular-nums; }
+  </style>
+
+  <!-- Section Headings -->
+  <text x="0" y="20" fill="#F3F5F9" font-size="17" letter-spacing="-0.2" class="disp">Process lineage</text>
+  <text x="516" y="20" text-anchor="end" fill="#788092" font-size="11" class="mono">Ring 0 -&gt; User mode</text>
+
+  <text x="532" y="20" fill="#F3F5F9" font-size="17" letter-spacing="-0.2" class="disp">Detection profile</text>
+  <text x="880" y="20" text-anchor="end" fill="#60A5FA" font-size="11" class="mono">Sigma CI passing</text>
+
+  <!-- LEFT PANEL: Process Lineage (Machined Slate #13161E) -->
+  <rect x="0.5" y="32.5" width="515" height="303" fill="#13161E" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+
+  <!-- Elevated Kernel Root Bar (#1B1F2B) -->
+  <rect x="1" y="33" width="514" height="43" fill="#1B1F2B" />
+  <rect x="1" y="33" width="3" height="43" fill="#E52E3D" />
+  <text x="16" y="59" fill="#F3F5F9" font-size="13" class="mono">ntoskrnl.exe</text>
+  <rect x="118" y="45" width="46" height="19" rx="1" fill="#0B0D12" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="141" y="58" text-anchor="middle" fill="#A5ACBC" font-size="10.5" class="mono">PID 4</text>
+  <text x="502" y="59" text-anchor="end" fill="#A5ACBC" font-size="11" class="mono">Windows Kernel &amp; EDR Engineering</text>
+
+  <rect x="1" y="76" width="514" height="52" fill="#13161E" />
+  <rect x="1" y="76" width="3" height="52" fill="#E52E3D" />
+  <line x1="1" y1="76" x2="515" y2="76" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="16" y="96" fill="#F3F5F9" font-size="12" class="mono">Process-Monitor.sys</text>
+  <text x="16" y="112" fill="#A5ACBC" font-size="11" class="mono">PsSetCreateProcessNotifyRoutineEx · Block/Kill · SDDL</text>
+  <text x="502" y="103" text-anchor="end" fill="#FF5765" font-size="11" class="mono">C · WDM</text>
+  <rect x="1" y="128" width="514" height="52" fill="#0F1219" />
+  <rect x="1" y="128" width="3" height="52" fill="#E52E3D" />
+  <line x1="1" y1="128" x2="515" y2="128" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="16" y="148" fill="#F3F5F9" font-size="12" class="mono">KM-UM-Communication.sys</text>
+  <text x="16" y="164" fill="#A5ACBC" font-size="11" class="mono">IoCreateDeviceSecure · METHOD_BUFFERED · /W4 /WX</text>
+  <text x="502" y="155" text-anchor="end" fill="#FF5765" font-size="11" class="mono">C · WDM</text>
+  <rect x="1" y="180" width="514" height="52" fill="#13161E" />
+  <rect x="1" y="180" width="3" height="52" fill="#9E2450" />
+  <line x1="1" y1="180" x2="515" y2="180" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="16" y="200" fill="#F3F5F9" font-size="12" class="mono">Filesystem-Minifilter.sys</text>
+  <text x="16" y="216" fill="#A5ACBC" font-size="11" class="mono">Kernel FS telemetry &amp; security log aggregation</text>
+  <text x="502" y="207" text-anchor="end" fill="#A5ACBC" font-size="11" class="mono">C · MFC</text>
+  <rect x="1" y="232" width="514" height="52" fill="#0F1219" />
+  <rect x="1" y="232" width="3" height="52" fill="#3B82F6" />
+  <line x1="1" y1="232" x2="515" y2="232" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="16" y="252" fill="#F3F5F9" font-size="12" class="mono">Magic-Scanner.exe</text>
+  <text x="16" y="268" fill="#A5ACBC" font-size="11" class="mono">Multi-threaded path &amp; magic-byte scanner</text>
+  <text x="502" y="259" text-anchor="end" fill="#60A5FA" font-size="11" class="mono">C++ · UM</text>
+  <rect x="1" y="284" width="514" height="52" fill="#0B0D12" />
+  <rect x="1" y="284" width="3" height="52" fill="#3B82F6" />
+  <line x1="1" y1="284" x2="515" y2="284" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="16" y="304" fill="#A5ACBC" font-size="12" class="mono">linkedin.com/in/kamureii</text>
+  <text x="16" y="320" fill="#788092" font-size="11" class="mono">kamurei123@gmail.com</text>
+  <text x="502" y="311" text-anchor="end" fill="#60A5FA" font-size="11" class="mono">TCP 443</text>
+
+  <!-- RIGHT PANEL: Recessed Sigma Identity Well (#0B0D12) -->
+  <rect x="532.5" y="32.5" width="347" height="303" fill="#0B0D12" stroke="rgba(255,255,255,0.16)" stroke-width="1" />
+  <rect x="533" y="33" width="346" height="43" fill="#1B1F2B" />
+  <line x1="533" y1="76" x2="879" y2="76" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+
+  <text x="546" y="59" fill="#F3F5F9" font-size="11.5" class="mono">kamureii_identity.sigma.yml</text>
+  <rect x="812" y="45" width="56" height="19" rx="1" fill="#251016" stroke="rgba(229,46,61,0.52)" stroke-width="1" />
+  <text x="840" y="58" text-anchor="middle" fill="#FF5765" font-size="10.5" class="mono">critical</text>
+
+  <text x="546" y="92" font-size="11" class="mono"><tspan fill="#788092">title: </tspan><tspan fill="#F3F5F9">Endpoint &amp; Detection Engineer</tspan></text>
+  <text x="546" y="107" font-size="11" class="mono"><tspan fill="#788092">author: </tspan><tspan fill="#F3F5F9">Tran Quoc Hung (Kamureii)</tspan></text>
+  <text x="546" y="122" font-size="11" class="mono"><tspan fill="#788092">logsource:</tspan><tspan fill="#F3F5F9"></tspan></text>
+  <text x="546" y="137" font-size="11" class="mono"><tspan fill="#788092">  category: </tspan><tspan fill="#F3F5F9">endpoint_security</tspan></text>
+  <text x="546" y="152" font-size="11" class="mono"><tspan fill="#788092">  product: </tspan><tspan fill="#F3F5F9">windows_kernel</tspan></text>
+  <text x="546" y="167" font-size="11" class="mono"><tspan fill="#788092">detection:</tspan><tspan fill="#F3F5F9"></tspan></text>
+  <text x="546" y="182" font-size="11" class="mono"><tspan fill="#788092">  ring0:</tspan><tspan fill="#F3F5F9"></tspan></text>
+  <text x="546" y="197" font-size="11" class="mono"><tspan fill="#788092">    - </tspan><tspan fill="#F3F5F9">WDM / Minifilter / SDDL</tspan></text>
+  <text x="546" y="212" font-size="11" class="mono"><tspan fill="#788092">    - </tspan><tspan fill="#F3F5F9">PsSetCreateProcessNotifyRoutineEx</tspan></text>
+  <text x="546" y="227" font-size="11" class="mono"><tspan fill="#788092">    - </tspan><tspan fill="#F3F5F9">ETW / Sysmon telemetry</tspan></text>
+  <text x="546" y="242" font-size="11" class="mono"><tspan fill="#788092">  engineering:</tspan><tspan fill="#F3F5F9"></tspan></text>
+  <text x="546" y="257" font-size="11" class="mono"><tspan fill="#788092">    - </tspan><tspan fill="#F3F5F9">Sigma / YARA / KQL</tspan></text>
+  <text x="546" y="272" font-size="11" class="mono"><tspan fill="#788092">    - </tspan><tspan fill="#F3F5F9">C, C++, Python, Win32</tspan></text>
+  <text x="546" y="287" font-size="11" class="mono"><tspan fill="#788092">  condition: </tspan><tspan fill="#FF5765">ring0 and engineering and not noise</tspan></text>
+  <text x="546" y="302" font-size="11" class="mono"><tspan fill="#788092">falsepositives:</tspan><tspan fill="#F3F5F9"></tspan></text>
+  <text x="546" y="317" font-size="11" class="mono"><tspan fill="#788092">  - </tspan><tspan fill="#A5ACBC">Signature-only legacy AV</tspan></text>
+</svg>

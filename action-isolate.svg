@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="40" viewBox="0 0 286 40" role="img" aria-label="Isolate &amp; inspect telemetry">
+  <style>.mono { font-family: 'Cascadia Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }</style>
+  <rect x="0.5" y="0.5" width="285" height="39" rx="2" fill="#1B0D12" stroke="rgba(229,46,61,0.52)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="3" height="39" fill="#E52E3D" />
+  <text x="16" y="24" fill="#F3F5F9" font-size="12" class="mono">Isolate &amp; inspect telemetry</text>
+  <text x="272" y="24" text-anchor="end" fill="#FF5765" font-size="10.5" class="mono">ACTIVE</text>
+</svg>
