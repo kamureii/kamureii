@@ -1,0 +1,51 @@
+name: Detection-as-Code CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r generator/requirements.txt
+
+      - name: Run Detection-as-Code & SVG XML tests
+        run: python -m unittest discover -s generator/tests -v
+
+      - name: Smoke test offline SVG generation
+        run: python generator/build_all.py --offline --out-dir /tmp/ci-svgs
+
+  validate-worker:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: worker
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Worker dependencies
+        run: npm install
+
+      - name: Type-check Cloudflare Worker
+        run: npm run typecheck
+
+      - name: Run Worker telemetry unit tests
+        run: npm test

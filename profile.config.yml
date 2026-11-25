@@ -1,0 +1,88 @@
+# Single Source of Truth for @kamureii Endpoint Security & Detection Engineering Profile
+# Edit this file and push to main — GitHub Actions automatically regenerates all v3 SVGs.
+
+profile:
+  username: kamureii
+  full_name: Tran Quoc Hung
+  alias: Kamureii
+  role: Endpoint Security & Detection Engineer
+  organization: VNPT Cyber Immunity
+  location: Hanoi, VN
+  email: kamurei123@gmail.com
+  linkedin_url: https://www.linkedin.com/in/kamureii/
+
+edge:
+  sensor_name: kamureii-xdr-edge.sys
+  # Paste your deployed Cloudflare Worker URL here to activate real-time Visit/Theme/Burst/Canary detection:
+  # Example: https://kamureii-xdr-edge.<your-subdomain>.workers.dev
+  worker_url: ""
+  # Serves auto-updated SVGs from the orphan `generated-assets` branch so `main` history stays clean:
+  asset_base_url: https://raw.githubusercontent.com/kamureii/kamureii/generated-assets
+
+process_lineage:
+  - binary: Process-Monitor.sys
+    repo: Process-Monitor
+    ring: kernel
+    detail: PsSetCreateProcessNotifyRoutineEx · Block/Kill · SDDL
+    stack: C · WDM
+  - binary: KM-UM-Communication.sys
+    repo: KM-UM-Communication
+    ring: kernel
+    detail: IoCreateDeviceSecure · METHOD_BUFFERED · /W4 /WX
+    stack: C · WDM
+  - binary: Filesystem-Minifilter.sys
+    repo: ""
+    ring: minifilter
+    detail: Kernel FS telemetry & security log aggregation
+    stack: C · MFC
+  - binary: Magic-Scanner.exe
+    repo: Multi-Threading-Magic-Scanner
+    ring: usermode
+    detail: Multi-threaded path & magic-byte scanner
+    stack: C++ · UM
+
+network_node:
+  binary: linkedin.com/in/kamureii
+  repo: ""
+  ring: network
+  detail: kamurei123@gmail.com
+  stack: TCP 443
+
+# Hybrid MITRE ATT&CK Coverage:
+# Merged automatically with techniques detected in your public GitHub repositories.
+mitre_coverage:
+  high_depth:
+    - T1059  # Command & Scripting Interpreter (process creation telemetry)
+    - T1055  # Process Injection (kernel & behavioral detection)
+    - T1562  # Impair Defenses (EDR tamper / light-mode edge rule)
+  public_override:
+    - T1106  # Native API (WDM / Zw* / IOCTL)
+    - T1134  # Access Token Manipulation
+    - T1552  # Unsecured Credentials (Canary honeytoken)
+    - T1057  # Process Discovery (Process-Monitor)
+    - T1083  # File and Directory Discovery (Magic-Scanner)
+    - T1090  # Proxy (github-camo edge detection)
+  enterprise:
+    - T1543  # Create or Modify System Process (service/driver monitoring)
+    - T1547  # Boot or Logon Autostart Execution
+    - T1036  # Masquerading
+    - T1003  # OS Credential Dumping
+    - T1071  # Application Layer Protocol C2
+
+# Used only when offline or if GitHub public events API returns no recent push events
+fallback_activity:
+  - timestamp: "2026-11-10 12:42Z"
+    event_id: EventID 11
+    repo: KM-UM-Communication
+    scope: WDM driver
+    is_security: true
+  - timestamp: "2026-11-09 07:30Z"
+    event_id: EventID 11
+    repo: Process-Monitor
+    scope: Process callback
+    is_security: true
+  - timestamp: "2026-11-08 16:50Z"
+    event_id: EventID 11
+    repo: Online_Auction_System
+    scope: Java repo
+    is_security: false

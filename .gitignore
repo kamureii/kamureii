@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Cloudflare Worker
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
+worker/dist/
+.env
+.env.*
+
+# Generated SVGs live on the orphan `generated-assets` branch
+assets/generated/
+
+# Local scratch & OS
+.DS_Store
+Thumbs.db
+.superpowers/

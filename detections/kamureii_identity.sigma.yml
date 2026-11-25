@@ -1,0 +1,31 @@
+title: Endpoint & Detection Engineer
+id: 7b4f9e20-6c41-4ed9-9a8d-202600000001
+status: production
+description: Identifies Endpoint Security, Windows Kernel EDR, and Detection Engineering profile for Tran Quoc Hung (Kamureii) at VNPT Cyber Immunity.
+author: Tran Quoc Hung (Kamureii)
+date: 2026-11-26
+tags:
+  - attack.execution
+  - attack.defense_evasion
+  - attack.t1055
+  - attack.t1059
+  - attack.t1090
+  - attack.t1552
+  - attack.t1562
+logsource:
+  category: endpoint_security
+  product: windows_kernel
+detection:
+  ring0:
+    - WDM / Minifilter / SDDL
+    - PsSetCreateProcessNotifyRoutineEx
+    - ETW / Sysmon telemetry
+  engineering:
+    - Sigma / YARA / KQL
+    - C, C++, Python, Win32
+  noise:
+    buzzwords_without_internals: true
+  condition: ring0 and engineering and not noise
+falsepositives:
+  - Signature-only legacy AV
+level: critical
