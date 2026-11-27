@@ -19,7 +19,7 @@
 
   <rect x="1" y="66" width="878" height="38" fill="#13161E" />
   <line x1="1" y1="66" x2="879" y2="66" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
-  <text x="18" y="89" fill="#788092" font-size="11.5" class="mono">2026-11-25 19:26Z</text>
+  <text x="18" y="89" fill="#788092" font-size="11.5" class="mono">2026-11-25 19:09Z</text>
   <text x="204" y="89" fill="#60A5FA" font-size="11.5" class="mono">EventID 11</text>
   <text x="348" y="89" fill="#F3F5F9" font-size="12" class="mono">kamureii</text>
   <text x="862" y="89" text-anchor="end" fill="#A5ACBC" font-size="11.5" class="mono">XDR profile DaC</text>
